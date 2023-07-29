@@ -10,7 +10,7 @@ function Navbar() {
         <NavLink to='/prediction'>Prediction</NavLink>
       </div>
       <div className='links'>
-          <a href='https://github.com/sankalpa-adhikari-sa/Water-Quallity-Classification' target="_blank" rel="noopener noreferrer"><AiFillGithub fontSize={30} color='white'/></a>
+          <a href='https://github.com/sankalpa-adhikari-sa/Water-Quality-Classification' target="_blank" rel="noopener noreferrer"><AiFillGithub fontSize={30} color='white'/></a>
       </div>
     </div>
   )
