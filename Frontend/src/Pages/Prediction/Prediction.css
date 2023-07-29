@@ -1,0 +1,96 @@
+.PredictionWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.PredictionForm {
+    background-color: rgba(0, 0, 204, 0.06);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   flex-direction: column;
+   width: max(300px, 80%);
+}
+.FormControl{
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+input {
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+.ButtonsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:30px;
+    margin-top: 10px;
+    
+    /* justify-content: space-evenly; */
+}
+.Button {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 0.05em;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.SubmitButton {
+    
+    /* width: 100%; */
+    width: auto;
+    color:white;
+    background-color: black;
+    flex: auto;
+    
+}
+.ResetButton {
+display: flex;
+background-color: white;
+width: fit-content;
+padding: 5px 15px;
+color:black;
+align-items: center;
+justify-content: center;
+}
+
+.ErrorClass{
+    font-size: 10px;
+    color: orangered;
+
+}
+.PredictionWrapper.blur {
+    filter: blur(4px);
+  }
+.PredictionCard{
+    background-color: rgb(0, 0, 0,0.8);
+    color: white;
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.Prediction_Data{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,28 @@
+.CardWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    gap: 30px;
+    height: auto;
+    width: fit-content;
+    margin: 10px 0px;
+    
+}
+.CardHeader {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 100px;
+    min-width: 100px;
+    background-color: orangered;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
