@@ -76,9 +76,12 @@ http://localhost:8000
 
 Here's a Quick demo how webapp looks like:
 #####
-![waterquality](https://github.com/sankalpa-adhikari-sa/Water-Quality-Classification/assets/106131019/0ae2f74a-6bdb-4398-b5e0-38321826dcb0)
 
  
+
+https://github.com/sankalpa-adhikari-sa/Water-Quality-Classification/assets/106131019/e51e24a4-0f04-467e-beb2-0bf85c783771
+
+
 ## Contributing
 
 Contributions are always welcome!
